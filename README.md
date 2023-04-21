@@ -45,7 +45,7 @@ Once all the microservices are up and running,
 1. Inside the flask-app pod, write and run a python script to insert records into the mongodb database. Insert into: database = 'blog' and collection = 'posts'.
 2. Run `app.py` inside the pod. Visit `http://localhost:<port>/` to view the Blog App. The Home Page should display the records inserted into the database in the previous step.
 <p align = "center">
-    <img src = "![IMG-20230421-WA0000](https://user-images.githubusercontent.com/114352512/233694899-64f2bf4b-fab0-4ebf-bb95-f080d395cbb4.jpg)"/>
+    ![IMG-20230421-WA0000](https://user-images.githubusercontent.com/114352512/233694899-64f2bf4b-fab0-4ebf-bb95-f080d395cbb4.jpg)
 </p>
 
 3. You can view the database frontend exposed by mongo-express. To do so, on your browser, navigate to`EXTERNAL_IP:port` exposed by the mongo-express service. Here is the sample output:  
